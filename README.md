@@ -31,13 +31,8 @@ Just follow the instructions in the script after running it from your the shell.
 
 ### Add users to groups
 
-Users can be added using:
-- **Username**: Gets temporarily banned with less requests.
-- **User ID**: Gets temporarily banned with more requests.
 
-> Temporarily bans last for up to a day in my experience.
-
-Adding users by Username expects a CSV file with one username per line.
+Adding users by Username expects a CSV file.
 Adding users by User ID expects a CSV file such as: `username,user_id,user_access_hash`
 
 > No headers are expected in the CSV files
@@ -49,7 +44,7 @@ Once you have your CSV prepared, just follow the instructions in the script.
   Follow Me On
 </p>
 <p align="center">
-  <a href="https://youtu.be/DiXvVSzFo0g">
+  <a href="https://www.youtube.com/@daredevilkinng6418">
     <img src="https://www.iconsdb.com/icons/preview/blue/youtube-4-xxl.png" width="40" height="40">
   </a>
 </p>
@@ -65,11 +60,10 @@ This method is only created for educational purposes only.
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
 
-# Telegram-Scraper & Adder
+# Telegram-Scraper/Adder & DM sender.
 
 
 NOTE : these commands are for android devices. All Android devices are supported. On linux OS all you have to just install telethon and rest is same.
-
 
 
 PROCEDURE:-

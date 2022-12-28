@@ -1,0 +1,6 @@
+telethon
+pyrogram
+colorama
+tgcrypto
+rich
+keyboard

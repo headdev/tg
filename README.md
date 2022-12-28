@@ -69,19 +69,15 @@ NOTE : these commands are for android devices. All Android devices are supported
 PROCEDURE:-
 
 
-$ git clone https://github.com/Shadow7Fox/TeleAdder.git
+$ git clone https://github.com/daredevilkinng/Telegram-Adder-Package
 
 $ cd TeleAdder
 
 $ ls
 
-
-
-Install requierments
+To install requierments pip install -r requirements.txt
 
 $ python3 setup.py -i
-
-
 
 To setup configration file ( API ID, API HASH )
 

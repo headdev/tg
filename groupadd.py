@@ -15,18 +15,7 @@ gr="\033[1;32m"
 cy="\033[1;36m"
 
 def banner():
-    print(f"""
-\__    ___/___ |  |   ____   ________________    _____    /   _____/ ________________  ______ ______   ___________ 
-  |    |_/ __ \|  | _/ __ \ / ___\_  __ \__  \  /     \   \_____  \_/ ___\_  __ \__  \ \____ \\____ \_/ __ \_  __ \
-  |    |\  ___/|  |_\  ___// /_/  >  | \// __ \|  Y Y  \  /        \  \___|  | \// __ \|  |_> >  |_> >  ___/|  | \/
-  |____| \___  >____/\___  >___  /|__|  (____  /__|_|  / /_______  /\___  >__|  (____  /   __/|   __/ \___  >__|   
-             \/          \/_____/            \/      \/          \/     \/           \/|__|   |__|        \/    
-     
-     Recoded By Da₹edevilkinng
-     
-     please do not change the descriptipn of code changing it won't make you a coder. 
-     Respect coders. Thank you.
-        """)
+    print(f""fuck you"")
 
 cpass = configparser.RawConfigParser()
 cpass.read('config.data')
@@ -99,11 +88,12 @@ target_group_entity = InputPeerChannel(target_group.id,target_group.access_hash)
 print(gr+"[1] add member by user ID\n[2] add member by username ")
 mode = int(input(gr+"Input : "+re)) 
 n = 0
+while n < 100:
  
 for user in users:
     n += 1
-    if n % 50 == 0:
-	    time.sleep(1)
+    if n % 10 == 0:
+	    time.sleep(300)
 	    try:
 	        print ("Adding {}".format(user['id']))
 	        if mode == 1:
@@ -116,7 +106,7 @@ for user in users:
 	            sys.exit(re+"[!] Invalid Mode Selected. Please Try Again.")
 	        client(InviteToChannelRequest(target_group_entity,[user_to_add]))
 	        print(gr+"[+] Waiting for right time to add members...")
-	        time.sleep(1)
+	        time.sleep(300)
 	    except PeerFloodError:
 	        print(re+"[!] Getting Flood Error from telegram. \n[!] Script is stopping now. \n[!] Please try again after some time.")
 	    except UserPrivacyRestrictedError:

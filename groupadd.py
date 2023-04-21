@@ -88,7 +88,8 @@ target_group_entity = InputPeerChannel(target_group.id,target_group.access_hash)
 print(gr+"[1] add member by user ID\n[2] add member by username ")
 mode = int(input(gr+"Input : "+re)) 
 n = 0
-while n < 100:
+while n < 100
+added_users = []
  
 for user in users:
     n += 1

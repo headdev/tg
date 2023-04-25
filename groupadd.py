@@ -120,7 +120,10 @@ for user in users:
 	        client(InviteToChannelRequest(target_group_entity,[user_to_add]))
                 added_users.append(user)
 	        print(gr+"[+] Waiting for right time to add members...")
-	        time.sleep(300)
+            for i in range(10):
+            time.sleep(300)
+            print(cy+"[*] Waiting for {} seconds...".format((i+1)*30))
+        print(gr+"[+] Continuing to add members...")
 	    except PeerFloodError:
 	        print(re+"[!] Getting Flood Error from telegram. \n[!] Script is stopping now. \n[!] Please try again after some time.")
 	    except UserPrivacyRestrictedError:

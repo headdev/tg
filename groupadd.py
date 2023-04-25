@@ -100,8 +100,6 @@ print(gr+"[1] add member by user ID\n[2] add member by username ")
 mode = int(input(gr+"Input : "+re)) 
 n = 0
 
-while n < 100:
-    added_users = []
  
 for user in users:
     n += 1
@@ -118,7 +116,6 @@ for user in users:
 	        else:
 	            sys.exit(re+"[!] Invalid Mode Selected. Please Try Again.")
 	        client(InviteToChannelRequest(target_group_entity,[user_to_add]))
-                added_users.append(user)
 	        print(gr+"[+] Waiting for right time to add members...")
             for i in range(10):
             time.sleep(300)
